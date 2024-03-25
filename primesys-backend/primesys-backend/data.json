@@ -4,13 +4,27 @@
     "Name": "tészta",
     "Manufacturer": "gyártó",
     "Price": 1222.0,
-    "IsActive": true
+    "IsActive": false
   },
   {
     "Id": 2,
     "Name": "tészta3",
     "Manufacturer": "gyártó",
     "Price": 121212.0,
+    "IsActive": false
+  },
+  {
+    "Id": 3,
+    "Name": "tészta",
+    "Manufacturer": "gyártó",
+    "Price": 1212.0,
+    "IsActive": true
+  },
+  {
+    "Id": 4,
+    "Name": "tészta2",
+    "Manufacturer": "gyártó",
+    "Price": 1212.0,
     "IsActive": false
   }
 ]

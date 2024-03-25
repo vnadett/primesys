@@ -56,7 +56,7 @@ namespace primesys_backend.Services
 
         public bool CheckManufacturerAndProductName(string ManufacturerName, string ProductName)
         {
-            var search = products.Where(x => x.Manufacturer == ManufacturerName && x.Name == ProductName).FirstOrDefault();
+            var search = products.Where(x => x.Manufacturer == ManufacturerName && x.Name == ProductName && x.IsActive).FirstOrDefault();
             if (search != null)
             {
                 return true;

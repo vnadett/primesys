@@ -1,0 +1,16 @@
+[
+  {
+    "Id": 1,
+    "Name": "tészta",
+    "Manufacturer": "gyártó",
+    "Price": 1222.0,
+    "IsActive": true
+  },
+  {
+    "Id": 2,
+    "Name": "tészta3",
+    "Manufacturer": "gyártó",
+    "Price": 121212.0,
+    "IsActive": false
+  }
+]

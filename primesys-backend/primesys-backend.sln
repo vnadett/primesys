@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primesys-backend", "primesys-backend\primesys-backend.csproj", "{507D7C17-4027-48C4-B55C-490288B8F841}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{507D7C17-4027-48C4-B55C-490288B8F841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{507D7C17-4027-48C4-B55C-490288B8F841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{507D7C17-4027-48C4-B55C-490288B8F841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{507D7C17-4027-48C4-B55C-490288B8F841}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {958C8610-32F8-4DDC-ACC0-FBD8CCAAF9CC}
+	EndGlobalSection
+EndGlobal

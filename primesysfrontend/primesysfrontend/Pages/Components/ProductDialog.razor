@@ -1,0 +1,78 @@
+﻿@using primesysfrontend.Interfaces
+@using primesysfrontend.Models
+@inject IProductService _prodservice
+@inject ISnackbar Snackbar
+
+
+
+
+<MudDialog @bind-IsVisible="Visible">
+    <TitleContent>
+        <MudText Typo="Typo.h6">
+            <MudIcon Icon="@Icons.Material.Filled.Edit" Class="mr-3" />
+            @if (IsEdit)
+            {
+                <span>Edit product</span>
+            }
+            else
+            {
+                <span>Create product</span>
+            }
+        </MudText>
+    </TitleContent>
+    <DialogContent>
+        <EditForm OnValidSubmit="Submit" Model="Product">
+            <MudTextField @bind-Value=Product.Manufacturer Label="Manufacturer" Variant="Variant.Filled" Required></MudTextField>
+            <MudTextField @bind-Value=Product.Name Label="Name" Variant="Variant.Filled" Required></MudTextField>
+            <MudNumericField @bind-Value=Product.Price Label="Price" Variant="Variant.Filled" Required></MudNumericField>
+            <br />
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" ButtonType="ButtonType.Submit" Class="px-10">Save</MudButton>
+            <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(() => CloseDialog.InvokeAsync(false))" Class="px-10">Cancel</MudButton>
+        </EditForm>
+    </DialogContent>
+</MudDialog>
+
+@code {
+    [Parameter]
+    public bool Visible { get; set; }
+    [Parameter]
+    public ProductModel Product { get; set; }
+    [Parameter]
+    public EventCallback<bool> CloseDialog { get; set; }
+    [Parameter]
+    public bool IsEdit { get; set; }
+
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (!IsEdit)
+        {
+            Product = new();
+        }
+    }
+
+    private async Task Submit()
+    {
+        bool response = false;
+
+        Snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomRight;
+        if (IsEdit)
+        {
+            response = await _prodservice.UpdateProduct(Product);
+        }
+        else
+        {
+            response = await _prodservice.CreateProduct(Product);
+        }
+        if (response)
+        {
+            await CloseDialog.InvokeAsync(false);
+            Snackbar.Add("Changes successfully saved.", Severity.Success);
+        }
+        else
+        {
+            Snackbar.Add("Error during the saving process. Fill the required fields or Check to see if the product doesn't already exist for the manufacturer! ", Severity.Error);
+
+        }
+    }
+}

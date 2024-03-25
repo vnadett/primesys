@@ -1,0 +1,100 @@
+[
+  {
+    "Id": 1,
+    "Name": "Termék",
+    "Manufacturer": "Termék gyártó",
+    "Price": 2500.0,
+    "IsActive": true
+  },
+  {
+    "Id": 2,
+    "Name": "Tészta",
+    "Manufacturer": "Gyártó",
+    "Price": 980.0,
+    "IsActive": true
+  },
+  {
+    "Id": 3,
+    "Name": "Tészta2",
+    "Manufacturer": "Gyártó2",
+    "Price": 9802.0,
+    "IsActive": false
+  },
+  {
+    "Id": 4,
+    "Name": "sdsad",
+    "Manufacturer": "adsd",
+    "Price": 1212.0,
+    "IsActive": true
+  },
+  {
+    "Id": 5,
+    "Name": "asdasd",
+    "Manufacturer": "asdasd",
+    "Price": 12312.0,
+    "IsActive": false
+  },
+  {
+    "Id": 6,
+    "Name": "dfsdf",
+    "Manufacturer": "sdfsdfs",
+    "Price": 34234.0,
+    "IsActive": true
+  },
+  {
+    "Id": 7,
+    "Name": "dfsdf",
+    "Manufacturer": "sdfsdfs",
+    "Price": 34234.0,
+    "IsActive": true
+  },
+  {
+    "Id": 8,
+    "Name": "555555",
+    "Manufacturer": "5656565655444tt",
+    "Price": 55555.0,
+    "IsActive": true
+  },
+  {
+    "Id": 9,
+    "Name": "Termék13333",
+    "Manufacturer": "Termék gyártó133333",
+    "Price": 25301.0,
+    "IsActive": true
+  },
+  {
+    "Id": 10,
+    "Name": "123123",
+    "Manufacturer": "12312",
+    "Price": 222.0,
+    "IsActive": true
+  },
+  {
+    "Id": 11,
+    "Name": "dasda",
+    "Manufacturer": "sdasdas",
+    "Price": 34343.0,
+    "IsActive": true
+  },
+  {
+    "Id": 12,
+    "Name": "23232",
+    "Manufacturer": "232333",
+    "Price": 12312.0,
+    "IsActive": true
+  },
+  {
+    "Id": 13,
+    "Name": "qweqwe",
+    "Manufacturer": "qweqwe",
+    "Price": 3434.0,
+    "IsActive": true
+  },
+  {
+    "Id": 14,
+    "Name": "Termék1",
+    "Manufacturer": "Termék gyártó",
+    "Price": 23123.0,
+    "IsActive": true
+  }
+]

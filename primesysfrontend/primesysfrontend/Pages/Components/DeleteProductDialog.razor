@@ -1,0 +1,46 @@
+﻿@using primesysfrontend.Interfaces
+@inject IProductService _prodservice
+@inject ISnackbar Snackbar
+
+
+
+
+<MudDialog @bind-IsVisible="Visible">
+    <TitleContent>
+        <MudText Typo="Typo.h6">
+            <MudIcon Icon="@Icons.Material.Filled.Edit" Class="mr-3" />
+            Delete Product?
+        </MudText>
+    </TitleContent>
+    <DialogContent>
+        <MudButton Variant="Variant.Filled" Color="Color.Error" OnClick="DeleteProduct" Class="px-10">Delete</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="@(() => CloseDialog.InvokeAsync(false))" Class="px-10">Cancel</MudButton>
+
+    </DialogContent>
+</MudDialog>
+
+@code {
+    [Parameter]
+    public bool Visible { get; set; }
+    [Parameter]
+    public EventCallback<bool> CloseDialog { get; set; }
+    [Parameter]
+    public int ProductId { get; set; }
+
+
+    async Task DeleteProduct()
+    {
+        Snackbar.Configuration.PositionClass = Defaults.Classes.Position.BottomRight;
+        var response = await _prodservice.DeleteProduct(ProductId);
+        if (response)
+        {
+            Snackbar.Add("Changes successfully saved.", Severity.Success);
+        }
+        else
+        {
+            Snackbar.Add("Error during the saving process.", Severity.Error);
+
+        }
+        await CloseDialog.InvokeAsync(false);
+    }
+}

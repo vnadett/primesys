@@ -1,0 +1,6 @@
+@primesys_backend_HostAddress = http://localhost:5025
+
+GET {{primesys_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

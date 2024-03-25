@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2ge0tbkcTWy1jAPJTIPdvkmDIMTo0X34obLTBm7S5Z0=",
+  "Source": "primesys-backend",
+  "BasePath": "_content/primesys-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,114 @@
+﻿@using primesysfrontend.Interfaces
+@using primesysfrontend.Models
+@inject IProductService _prodService
+@inject MudBlazor.IDialogService DialogService
+
+
+@page "/"
+
+
+<div class="container">
+    <div class="container-fluid">
+        <div class="row title-row">
+            <div class="col-md-12">
+                <h1>Products</h1>
+            </div>
+        </div>
+        <div class="row datagrid-row">
+            <div class="row">
+                <div class="col-md-12">
+                    <button class="btn btn-primary btn-lg add-new" @onclick="OpenNewDialog">
+                        Add new
+                    </button>
+                </div>
+            </div>
+            @if (products != null && products.Count > 0)
+            {
+                <table class="table table-striped table-hover">
+                    <thead>
+                    <td>#</td>
+                    <td>Manufacturer</td>
+                    <td>Name</td>
+                    <td>Price</td>
+                    <td>Actions</td>
+                    </thead>
+                    <tbody>
+                        @foreach (ProductModel p in products)
+                        {
+                            <tr>
+                                <td>@p.Id</td>
+                                <td>@p.Manufacturer</td>
+                                <td>@p.Name</td>
+                                <td>@p.Price</td>
+                                <td>
+                                    <button @onclick="() => EditProduct(p)" class="btn btn-secondary">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill" viewBox="0 0 16 16">
+                                            <path d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.5.5 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11z" />
+                                        </svg>
+                                    </button>
+                                    <button @onclick="() => OpenDeleteDialog(p.Id??0)" class="btn btn-danger">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
+                                            <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
+                                        </svg>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <span>There are no products.</span>
+            }
+        </div>
+    </div>
+</div>
+<primesysfrontend.Pages.Components.ProductDialog IsEdit="isEdit" Visible="DialogVisible" CloseDialog="DialogHandler" Product="selectedProduct" />
+<primesysfrontend.Pages.Components.DeleteProductDialog Visible=DeleteDialogVisible CloseDialog="HandleDeleteDialog" ProductId="selectedId" />
+@code {
+    public bool DialogVisible { get; set; } = false;
+    public bool DeleteDialogVisible { get; set; } = false;
+    List<ProductModel> products = new();
+    ProductModel selectedProduct;
+    bool isEdit = false;
+    int selectedId;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await GetProductsAsync();
+    }
+    async Task<List<ProductModel>> GetProductsAsync()
+    {
+        var response = await _prodService.GetProducts();
+        Console.WriteLine(response);
+        return response;
+    }
+    async Task DialogHandler(bool visible)
+    {
+        DialogVisible = visible;
+        products = await GetProductsAsync();
+    }
+    void OpenNewDialog()
+    {
+        isEdit = false;
+        DialogVisible = true;
+    }
+    void EditProduct(ProductModel prod)
+    {
+        isEdit = true;
+        DialogVisible = true;
+        selectedProduct = prod;
+    }
+    async Task HandleDeleteDialog(bool visible)
+    {
+        DeleteDialogVisible = visible;
+        products = await GetProductsAsync();
+    }
+    void OpenDeleteDialog(int id)
+    {
+        selectedId = id;
+        DeleteDialogVisible = true;
+    }
+}

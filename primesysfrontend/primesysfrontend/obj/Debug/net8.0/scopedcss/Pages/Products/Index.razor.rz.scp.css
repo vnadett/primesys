@@ -1,0 +1,20 @@
+.title-row[b-oqtk8c534c] {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top: 25px;
+}
+
+.datagrid-row[b-oqtk8c534c] {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+    .datagrid-row span[b-oqtk8c534c] {
+        font-size: 30px;
+        margin: 15px;
+    }
+
+.add-new[b-oqtk8c534c] {
+    margin: 10px;
+}

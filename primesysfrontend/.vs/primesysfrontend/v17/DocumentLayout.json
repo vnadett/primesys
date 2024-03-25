@@ -1,0 +1,290 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\pages\\components\\productdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\pages\\components\\productdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\pages\\products\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\pages\\products\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\coresettings\\endpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\coresettings\\endpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\models\\baseresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\models\\baseresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\pages\\components\\deleteproductdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\pages\\components\\deleteproductdialog.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\pages\\products\\index.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\pages\\products\\index.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|c:\\users\\vnade\\onedrive\\dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2B667FDD-2906-42A5-B5A9-8CE2BCE6B0B3}|primesysfrontend\\primesysfrontend.csproj|solutionrelative:primesysfrontend\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 289,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDialog.razor",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Pages\\Components\\ProductDialog.razor",
+              "RelativeDocumentMoniker": "primesysfrontend\\Pages\\Components\\ProductDialog.razor",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Pages\\Components\\ProductDialog.razor",
+              "RelativeToolTip": "primesysfrontend\\Pages\\Components\\ProductDialog.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T13:56:23.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "primesysfrontend\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "primesysfrontend\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T13:12:43.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Program.cs",
+              "RelativeDocumentMoniker": "primesysfrontend\\Program.cs",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Program.cs",
+              "RelativeToolTip": "primesysfrontend\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T15:22:34.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Pages\\Products\\Index.razor",
+              "RelativeDocumentMoniker": "primesysfrontend\\Pages\\Products\\Index.razor",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Pages\\Products\\Index.razor",
+              "RelativeToolTip": "primesysfrontend\\Pages\\Products\\Index.razor",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T12:33:41.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "primesysfrontend\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "primesysfrontend\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T12:25:43.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "primesysfrontend\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\wwwroot\\index.html",
+              "RelativeToolTip": "primesysfrontend\\wwwroot\\index.html",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAIwBMAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-23T12:27:32.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "primesysfrontend\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "primesysfrontend\\wwwroot\\css\\app.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-23T12:45:04.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\_Imports.razor",
+              "RelativeDocumentMoniker": "primesysfrontend\\_Imports.razor",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\_Imports.razor",
+              "RelativeToolTip": "primesysfrontend\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T12:23:51.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "primesysfrontend\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "primesysfrontend\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T12:23:34.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\App.razor",
+              "RelativeDocumentMoniker": "primesysfrontend\\App.razor",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\App.razor",
+              "RelativeToolTip": "primesysfrontend\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T12:22:47.185Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 126,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Endpoints.cs",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\CoreSettings\\Endpoints.cs",
+              "RelativeDocumentMoniker": "primesysfrontend\\CoreSettings\\Endpoints.cs",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\CoreSettings\\Endpoints.cs",
+              "RelativeToolTip": "primesysfrontend\\CoreSettings\\Endpoints.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-25T11:46:17.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductModel.cs",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Models\\ProductModel.cs",
+              "RelativeDocumentMoniker": "primesysfrontend\\Models\\ProductModel.cs",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Models\\ProductModel.cs",
+              "RelativeToolTip": "primesysfrontend\\Models\\ProductModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T12:59:44.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "primesysfrontend\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Services\\ProductService.cs",
+              "RelativeToolTip": "primesysfrontend\\Services\\ProductService.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwCcAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T12:54:01.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Models\\BaseResponseModel.cs",
+              "RelativeDocumentMoniker": "primesysfrontend\\Models\\BaseResponseModel.cs",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Models\\BaseResponseModel.cs",
+              "RelativeToolTip": "primesysfrontend\\Models\\BaseResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T12:57:32.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteProductDialog.razor",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Pages\\Components\\DeleteProductDialog.razor",
+              "RelativeDocumentMoniker": "primesysfrontend\\Pages\\Components\\DeleteProductDialog.razor",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Pages\\Components\\DeleteProductDialog.razor",
+              "RelativeToolTip": "primesysfrontend\\Pages\\Components\\DeleteProductDialog.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-23T16:58:09.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.razor.css",
+              "DocumentMoniker": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Pages\\Products\\Index.razor.css",
+              "RelativeDocumentMoniker": "primesysfrontend\\Pages\\Products\\Index.razor.css",
+              "ToolTip": "C:\\Users\\vnade\\OneDrive\\Dokumentumok\\coding\\primesystest\\primesysfrontend\\primesysfrontend\\Pages\\Products\\Index.razor.css",
+              "RelativeToolTip": "primesysfrontend\\Pages\\Products\\Index.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-23T12:45:55.265Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
